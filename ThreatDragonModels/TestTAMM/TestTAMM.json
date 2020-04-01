@@ -79,16 +79,34 @@
               "angle": 0,
               "id": "1569d18d-77bc-48b3-8c82-4fe411aaa6dd",
               "z": 3,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "Open Redirects to the Client",
+                  "type": "Spoofing",
+                  "description": "Open REdirect to the Client property and check the data flow.",
+                  "mitigation": "Validate the Pre-registered redirect url"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "title": "Tampering Product",
+                  "description": "Tampering the Product Details and reviews",
+                  "mitigation": "Tampering details"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "WEBAPP"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
