@@ -8,7 +8,7 @@
     "contributors": [],
     "diagrams": [
       {
-        "title": "New-Diagram",
+        "title": "TAMM-Diagram",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0,
         "diagramJson": {
@@ -354,6 +354,10 @@
                 {
                   "x": 598,
                   "y": 297
+                },
+                {
+                  "x": 577,
+                  "y": 287
                 },
                 {
                   "x": 569,
